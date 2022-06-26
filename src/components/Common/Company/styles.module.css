@@ -1,0 +1,19 @@
+.companyLogo {
+    width: 30px;
+    height: 30px;
+}
+.poweredBy {
+    text-align: end;
+}
+.companyName {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: left;
+    display: inline-block;
+    margin-left: 6px;
+    color: #bcbcbc;
+}
+.companyName .name {
+    color: #6c4079;
+}

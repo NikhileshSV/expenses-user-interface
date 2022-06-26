@@ -1,0 +1,47 @@
+.navbar {
+    background: #ffffff !important;
+    box-shadow: 0px 15px 10px -15px #6c4079;
+}
+.navbar .navItem {
+    margin: 0px 12px;
+    color: #6c4079 !important;
+}
+.navbarToggler .navbar-toggler-icon,
+.navbarBrand,
+.navItem a {
+    color: #6c4079 !important;
+}
+.navbarItems {
+    margin-bottom: -11px;
+}
+.navItem a {
+    padding-bottom: 10px;
+}
+.activeLink {
+    border-bottom: 3px solid #6c4079 !important;
+}
+.active.nav-link a {
+    font-weight: 500;
+}
+.active.nav-link:last-child {
+    margin-right: 0px;
+}
+.profile {
+    padding: 8px 0px;
+    cursor: pointer;
+}
+.dropdownMenu {
+    right: -10px;
+    margin: 0px;
+}
+.dropdownToggle {
+    font-size: 28px;
+}
+.dropdownToggle::after {
+    display: none;
+}
+@media only screen and (max-width: 667px) {
+    .navbarItems {
+        margin-bottom: 0px;
+    }
+}

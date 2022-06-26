@@ -1,0 +1,20 @@
+.expenseItem {
+    box-shadow: 0 1px 8px #0003, 0 3px 4px #00000024, 0 3px 3px -2px #0000001f;
+}
+.entries {
+    width: 85%;
+    border-right: 1px solid #bcbcbc;
+}
+.productName {
+    min-width: calc(80% - 80px);
+    max-width: calc(80% - 80px);
+}
+.price {
+    width: 20%;
+}
+.controls {
+    width: 80px;
+}
+.controlIcon {
+    cursor: pointer;
+}

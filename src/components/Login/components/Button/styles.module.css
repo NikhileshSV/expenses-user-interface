@@ -1,0 +1,14 @@
+.loginSubmit {
+    background: linear-gradient(to bottom left, #fc2c77 0%, #6c4079 100%);
+    font-size: 16px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 0px;
+    max-width: 85px;
+    color: #ffffff;
+}
+.loginSubmit:active,
+.loginSubmit:focus,
+.loginSubmit:hover {
+	outline: none;
+}

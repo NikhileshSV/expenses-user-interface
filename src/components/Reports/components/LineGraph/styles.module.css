@@ -1,0 +1,10 @@
+.shadow {
+    box-shadow: 0 1px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.chartContainer h6 {
+    color: #11142d;
+    font-size: 14px;
+    font-weight: 500;
+}

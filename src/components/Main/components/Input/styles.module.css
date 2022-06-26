@@ -1,0 +1,11 @@
+.input {
+    border: none;
+    background: none;
+    font-weight: 500;
+	width: 100%;
+}
+.input:active,
+.input:focus,
+.input:hover {
+	outline: none;
+}

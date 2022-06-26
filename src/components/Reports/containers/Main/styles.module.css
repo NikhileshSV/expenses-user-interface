@@ -1,0 +1,11 @@
+.shadow {
+    box-shadow: 0 1px 19px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.noExpenseData {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,63 @@
+.container {
+    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+    height: 100vh;
+}
+.loginContent {
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    width: 700px;
+    border-radius: 12px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.login {
+    width: 50%;
+    padding: 30px;
+}
+.expensesContainer {
+    max-width: 50%;
+}
+.expensesImage {
+    max-width: 100%;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 100%;
+}
+.newUser {
+    font-size: 12px;
+    font-weight: 500;
+}
+.newUser .register {
+    color: #fc2c77;
+    cursor: pointer;
+}
+.errorText {
+    color: #990000;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 667px) {
+    .container {
+        background: #ffffff;
+    }
+    .expensesContainer {
+        display: none;
+    }
+    .loginContent {
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    .login {
+        width: 100%;
+        max-width: 100%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+}

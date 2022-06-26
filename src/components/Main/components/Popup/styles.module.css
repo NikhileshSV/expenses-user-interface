@@ -1,0 +1,30 @@
+.modal {
+    background: rgb(0, 0, 0, 0.3);
+}
+.modalDialog {
+    max-width: 100%;
+    height: inherit;
+    margin: 0px;
+}
+.modalContent {
+    position: absolute;
+    bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+.modalContent input:focus {
+    color: #495057;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.saveExpense,
+.closeModal {
+    width: calc(50% - 14px);
+}
+
+@media only screen and (max-width: 672px) {
+    .expenseSelection {
+        margin-top: 0.25rem;
+    }
+}
