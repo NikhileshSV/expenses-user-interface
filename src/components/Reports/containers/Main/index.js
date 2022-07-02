@@ -180,10 +180,10 @@ const Main = () => {
         <>
             <Navbar />
             <section className="p-3">
+                <Filter startDate={startDate} setStartDate={setStartDate} endDate={endDate} setEndDate={setEndDate} />
                 {loading === true && <Loading />}
                 {loading === false && isDataAvailable === true && error === false && (
                     <>
-                        <Filter startDate={startDate} setStartDate={setStartDate} endDate={endDate} setEndDate={setEndDate} />
                         <div className="mt-3 row">
                             <PieChart categoryList={expenseTypes} categoryScores={categoryAmountList} />
                             <Stats
